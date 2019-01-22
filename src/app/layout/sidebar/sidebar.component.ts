@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { navItems } from '../../_nav';
+import { Component, OnInit, Input } from '@angular/core';
+import { NavService } from '../../core/nav/nav.service';
+import { NavData } from 'src/app/routes/nav';
 
 @Component({
   selector: 'app-layout-sidebar',
@@ -8,9 +9,18 @@ import { navItems } from '../../_nav';
 })
 export class SidebarComponent implements OnInit {
 
-  public navItems = navItems;
+  private _sidebarMinimized: boolean;
 
-  constructor() { }
+  @Input()
+  set sidebarMinimized(_sidebarMinimized: boolean) {
+    this._sidebarMinimized = _sidebarMinimized;
+  }
+
+  navItems: NavData[];
+
+  constructor(private navService: NavService) {
+    this.navItems = this.navService.getNavs();
+   }
 
   ngOnInit() {
   }
