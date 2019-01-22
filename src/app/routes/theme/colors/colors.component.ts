@@ -11,7 +11,7 @@ export class ColorsComponent implements OnInit {
   constructor() { }
 
   public themeColors(): void {
-    Array.from(document.querySelectorAll('.theme-color')).forEach(function(el) {
+    Array.from(document.querySelectorAll('.theme-color')).forEach(function (el) {
       const elem = document.getElementsByClassName(el.classList[0])[0];
       const background = getStyle('background-color', elem);
 
