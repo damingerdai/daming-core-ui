@@ -1,7 +1,11 @@
+import { InjectionToken } from '@angular/core';
+
 interface Badge {
     variant: 'info' | 'success' | 'secondary' | 'danger';
     text: string;
 }
+
+export const NAV_DATA = new InjectionToken<string>('NavData');
 
 export interface NavData {
     name?: string;
