@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 
 @NgModule({
@@ -11,13 +12,15 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
         CommonModule,
         BsDropdownModule.forRoot(),
         TabsModule.forRoot(),
-        CarouselModule.forRoot()
+        CarouselModule.forRoot(),
+        CollapseModule.forRoot(),
     ],
     exports: [
         CommonModule,
         BsDropdownModule,
         TabsModule,
-        CarouselModule
+        CarouselModule,
+        CollapseModule,
     ]
 })
 export class SharedBootstrapModule { }
