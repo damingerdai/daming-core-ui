@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CardsComponent } from './cards/cards.component';
+import { CarouselsComponent } from './carousels/carousels.component';
 
 const routes: Routes = [
   {
@@ -48,13 +49,13 @@ const routes: Routes = [
     //       title: 'Tabs'
     //     }
     //   },
-    //   {
-    //     path: 'carousels',
-    //     component: CarouselsComponent,
-    //     data: {
-    //       title: 'Carousels'
-    //     }
-    //   },
+      {
+        path: 'carousels',
+        component: CarouselsComponent,
+        data: {
+          title: 'Carousels'
+        }
+      },
     //   {
     //     path: 'collapses',
     //     component: CollapsesComponent,
