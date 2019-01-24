@@ -86,3 +86,4 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+import 'chart.js/dist/Chart.min.js';
