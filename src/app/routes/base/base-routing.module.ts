@@ -8,6 +8,7 @@ import { FormsComponent } from './forms/forms.component';
 import { PopoversComponent } from './popovers/popovers.component';
 import { ProgressComponent } from './progress/progress.component';
 import { SwitchesComponent } from './switches/switches.component';
+import { TablesComponent } from './tables/tables.component';
 
 const routes: Routes = [
     {
@@ -76,13 +77,13 @@ const routes: Routes = [
                   title: 'Switches'
                 }
               },
-            //   {
-            //     path: 'tables',
-            //     component: TablesComponent,
-            //     data: {
-            //       title: 'Tables'
-            //     }
-            //   },
+              {
+                path: 'tables',
+                component: TablesComponent,
+                data: {
+                  title: 'Tables'
+                }
+              },
             //   {
             //     path: 'tabs',
             //     component: TabsComponent,
