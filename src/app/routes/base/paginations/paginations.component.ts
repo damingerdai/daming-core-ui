@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-pagination',
-  templateUrl: './pagination.component.html',
-  styleUrls: ['./pagination.component.scss']
+  selector: 'app-paginations',
+  templateUrl: './paginations.component.html',
+  styleUrls: ['./paginations.component.scss']
 })
-export class PaginationComponent implements OnInit {
+export class PaginationsComponent implements OnInit {
 
   totalItems = 64;
   currentPage = 4;

@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CardsComponent } from './cards/cards.component';
 import { CarouselsComponent } from './carousels/carousels.component';
 import { CollapsesComponent } from './collapses/collapses.component';
+import { PaginationsComponent } from './paginations/paginations.component';
 
 const routes: Routes = [
     {
@@ -43,6 +44,13 @@ const routes: Routes = [
             //       title: 'Forms'
             //     }
             //   },
+            {
+                path: 'paginations',
+                component: PaginationsComponent,
+                data: {
+                    title: 'Pagination'
+                }
+            },
             //   {
             //     path: 'switches',
             //     component: SwitchesComponent,
@@ -65,13 +73,7 @@ const routes: Routes = [
             //     }
             //   },
 
-            //   {
-            //     path: 'paginations',
-            //     component: PaginationsComponent,
-            //     data: {
-            //       title: 'Pagination'
-            //     }
-            //   },
+
             //   {
             //     path: 'popovers',
             //     component: PopoversComponent,
