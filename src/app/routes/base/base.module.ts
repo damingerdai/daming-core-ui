@@ -11,6 +11,7 @@ import { PopoversComponent } from './popovers/popovers.component';
 import { ProgressComponent } from './progress/progress.component';
 import { SwitchesComponent } from './switches/switches.component';
 import { TablesComponent } from './tables/tables.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TablesComponent } from './tables/tables.component';
     PopoversComponent,
     ProgressComponent,
     SwitchesComponent,
-    TablesComponent
+    TablesComponent,
+    TabsComponent
   ],
   imports: [
     SharedModule,

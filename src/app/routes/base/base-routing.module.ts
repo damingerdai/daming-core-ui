@@ -9,6 +9,7 @@ import { PopoversComponent } from './popovers/popovers.component';
 import { ProgressComponent } from './progress/progress.component';
 import { SwitchesComponent } from './switches/switches.component';
 import { TablesComponent } from './tables/tables.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 const routes: Routes = [
     {
@@ -70,31 +71,27 @@ const routes: Routes = [
                     title: 'Progress'
                 }
             },
-              {
+            {
                 path: 'switches',
                 component: SwitchesComponent,
                 data: {
-                  title: 'Switches'
+                    title: 'Switches'
                 }
-              },
-              {
+            },
+            {
                 path: 'tables',
                 component: TablesComponent,
                 data: {
-                  title: 'Tables'
+                    title: 'Tables'
                 }
-              },
-            //   {
-            //     path: 'tabs',
-            //     component: TabsComponent,
-            //     data: {
-            //       title: 'Tabs'
-            //     }
-            //   },
-
-
-
-
+            },
+            {
+                path: 'tabs',
+                component: TabsComponent,
+                data: {
+                    title: 'Tabs'
+                }
+            },
             //   {
             //     path: 'tooltips',
             //     component: TooltipsComponent,
