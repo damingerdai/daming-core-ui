@@ -10,6 +10,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { SwitchesComponent } from './switches/switches.component';
 import { TablesComponent } from './tables/tables.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { TooltipsComponent } from './tooltips/tooltips.component';
 
 const routes: Routes = [
     {
@@ -92,13 +93,13 @@ const routes: Routes = [
                     title: 'Tabs'
                 }
             },
-            //   {
-            //     path: 'tooltips',
-            //     component: TooltipsComponent,
-            //     data: {
-            //       title: 'Tooltips'
-            //     }
-            //   }
+              {
+                path: 'tooltips',
+                component: TooltipsComponent,
+                data: {
+                  title: 'Tooltips'
+                }
+              }
         ]
     }
 ];

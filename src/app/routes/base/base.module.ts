@@ -12,6 +12,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { SwitchesComponent } from './switches/switches.component';
 import { TablesComponent } from './tables/tables.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { TooltipsComponent } from './tooltips/tooltips.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TabsComponent } from './tabs/tabs.component';
     ProgressComponent,
     SwitchesComponent,
     TablesComponent,
-    TabsComponent
+    TabsComponent,
+    TooltipsComponent
   ],
   imports: [
     SharedModule,
