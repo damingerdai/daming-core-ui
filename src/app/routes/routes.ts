@@ -9,9 +9,10 @@ export const routes = [
             title: 'Home'
         },
         children: [
-            { path: '', redirectTo: 'home', pathMatch: 'full' },
+            { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
             { path: 'theme', loadChildren: './theme/theme.module#ThemeModule' },
             { path: 'base', loadChildren: './base/base.module#BaseModule' },
+            { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
         ]
     },
 
