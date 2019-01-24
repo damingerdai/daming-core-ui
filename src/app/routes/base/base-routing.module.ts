@@ -7,6 +7,7 @@ import { PaginationsComponent } from './paginations/paginations.component';
 import { FormsComponent } from './forms/forms.component';
 import { PopoversComponent } from './popovers/popovers.component';
 import { ProgressComponent } from './progress/progress.component';
+import { SwitchesComponent } from './switches/switches.component';
 
 const routes: Routes = [
     {
@@ -68,13 +69,13 @@ const routes: Routes = [
                     title: 'Progress'
                 }
             },
-            //   {
-            //     path: 'switches',
-            //     component: SwitchesComponent,
-            //     data: {
-            //       title: 'Switches'
-            //     }
-            //   },
+              {
+                path: 'switches',
+                component: SwitchesComponent,
+                data: {
+                  title: 'Switches'
+                }
+              },
             //   {
             //     path: 'tables',
             //     component: TablesComponent,

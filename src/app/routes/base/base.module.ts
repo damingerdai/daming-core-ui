@@ -9,6 +9,7 @@ import { PaginationsComponent } from './paginations/paginations.component';
 import { FormsComponent } from './forms/forms.component';
 import { PopoversComponent } from './popovers/popovers.component';
 import { ProgressComponent } from './progress/progress.component';
+import { SwitchesComponent } from './switches/switches.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProgressComponent } from './progress/progress.component';
     PaginationsComponent,
     FormsComponent,
     PopoversComponent,
-    ProgressComponent
+    ProgressComponent,
+    SwitchesComponent
   ],
   imports: [
     SharedModule,
