@@ -5,6 +5,8 @@ import { CarouselsComponent } from './carousels/carousels.component';
 import { CollapsesComponent } from './collapses/collapses.component';
 import { PaginationsComponent } from './paginations/paginations.component';
 import { FormsComponent } from './forms/forms.component';
+import { PopoversComponent } from './popovers/popovers.component';
+import { ProgressComponent } from './progress/progress.component';
 
 const routes: Routes = [
     {
@@ -52,6 +54,20 @@ const routes: Routes = [
                     title: 'Pagination'
                 }
             },
+            {
+                path: 'popovers',
+                component: PopoversComponent,
+                data: {
+                    title: 'Popover'
+                }
+            },
+            {
+                path: 'progress',
+                component: ProgressComponent,
+                data: {
+                    title: 'Progress'
+                }
+            },
             //   {
             //     path: 'switches',
             //     component: SwitchesComponent,
@@ -75,20 +91,8 @@ const routes: Routes = [
             //   },
 
 
-            //   {
-            //     path: 'popovers',
-            //     component: PopoversComponent,
-            //     data: {
-            //       title: 'Popover'
-            //     }
-            //   },
-            //   {
-            //     path: 'progress',
-            //     component: ProgressComponent,
-            //     data: {
-            //       title: 'Progress'
-            //     }
-            //   },
+
+
             //   {
             //     path: 'tooltips',
             //     component: TooltipsComponent,

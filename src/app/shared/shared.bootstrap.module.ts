@@ -6,6 +6,8 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
+import { PopoverModule } from 'ngx-bootstrap/popover';
+import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
         CarouselModule.forRoot(),
         CollapseModule.forRoot(),
         PaginationModule.forRoot(),
+        PopoverModule.forRoot(),
+        ProgressbarModule.forRoot(),
     ],
     exports: [
         CommonModule,
@@ -24,6 +28,8 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
         CarouselModule,
         CollapseModule,
         PaginationModule,
+        PopoverModule,
+        ProgressbarModule,
     ]
 })
 export class SharedBootstrapModule { }

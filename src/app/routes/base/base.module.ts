@@ -7,6 +7,8 @@ import { SharedModule } from '../../shared/shared.module';
 import { CollapsesComponent } from './collapses/collapses.component';
 import { PaginationsComponent } from './paginations/paginations.component';
 import { FormsComponent } from './forms/forms.component';
+import { PopoversComponent } from './popovers/popovers.component';
+import { ProgressComponent } from './progress/progress.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FormsComponent } from './forms/forms.component';
     CarouselsComponent,
     CollapsesComponent,
     PaginationsComponent,
-    FormsComponent
+    FormsComponent,
+    PopoversComponent,
+    ProgressComponent
   ],
   imports: [
     SharedModule,
