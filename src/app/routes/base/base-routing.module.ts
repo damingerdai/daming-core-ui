@@ -4,6 +4,7 @@ import { CardsComponent } from './cards/cards.component';
 import { CarouselsComponent } from './carousels/carousels.component';
 import { CollapsesComponent } from './collapses/collapses.component';
 import { PaginationsComponent } from './paginations/paginations.component';
+import { FormsComponent } from './forms/forms.component';
 
 const routes: Routes = [
     {
@@ -37,13 +38,13 @@ const routes: Routes = [
                     title: 'Collapses'
                 }
             },
-            //   {
-            //     path: 'forms',
-            //     component: FormsComponent,
-            //     data: {
-            //       title: 'Forms'
-            //     }
-            //   },
+            {
+                path: 'forms',
+                component: FormsComponent,
+                data: {
+                    title: 'Forms'
+                }
+            },
             {
                 path: 'paginations',
                 component: PaginationsComponent,
