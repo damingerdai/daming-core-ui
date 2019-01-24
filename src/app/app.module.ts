@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { LayoutModule } from './layout/layout.module';
 import { RoutesModule } from './routes/routes.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RoutesModule } from './routes/routes.module';
     HttpClientModule,
     CoreModule,
     LayoutModule,
-    RoutesModule
+    RoutesModule,
+    SharedModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
