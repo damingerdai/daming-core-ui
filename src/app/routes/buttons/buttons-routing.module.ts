@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { BrandButtonsComponent } from './brand-buttons/brand-buttons.component';
 
 
 const routes: Routes = [
@@ -28,13 +29,13 @@ const routes: Routes = [
       //     title: 'Dropdowns'
       //   }
       // },
-      // {
-      //   path: 'brand-buttons',
-      //   component: BrandButtonsComponent,
-      //   data: {
-      //     title: 'Brand buttons'
-      //   }
-      // }
+      {
+        path: 'brand-buttons',
+        component: BrandButtonsComponent,
+        data: {
+          title: 'Brand buttons'
+        }
+      }
     ]
   }
 ];
