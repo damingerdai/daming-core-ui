@@ -227,12 +227,12 @@ export const navItems: NavData[] = [
             },
             {
                 name: 'Error 404',
-                url: '/404',
+                url: '/pages/404',
                 icon: 'icon-star'
             },
             {
                 name: 'Error 500',
-                url: '/500',
+                url: '/pages/500',
                 icon: 'icon-star'
             }
         ]

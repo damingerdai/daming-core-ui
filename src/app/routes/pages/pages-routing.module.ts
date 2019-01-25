@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { Page404Component } from './page404/page404.component';
 
 const routes: Routes = [
     {
@@ -16,6 +17,13 @@ const routes: Routes = [
         component: RegisterComponent,
         data: {
             title: 'Register Page'
+        }
+    },
+    {
+        path: '404',
+        component: Page404Component,
+        data: {
+            title: '404 Page'
         }
     },
 

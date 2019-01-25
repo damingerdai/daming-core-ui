@@ -3,11 +3,13 @@ import { SharedModule } from './../../shared/shared.module';
 import { LoginComponent } from './login/login.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { RegisterComponent } from './register/register.component';
+import { Page404Component } from './page404/page404.component';
 
 @NgModule({
   declarations: [
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    Page404Component
   ],
   imports: [
     SharedModule,
