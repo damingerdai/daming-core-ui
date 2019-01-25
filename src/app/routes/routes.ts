@@ -13,6 +13,7 @@ export const routes = [
             { path: 'theme', loadChildren: './theme/theme.module#ThemeModule' },
             { path: 'base', loadChildren: './base/base.module#BaseModule' },
             { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
+            { path: 'buttons', loadChildren: './buttons/buttons.module#ButtonsModule' },
         ]
     },
 
