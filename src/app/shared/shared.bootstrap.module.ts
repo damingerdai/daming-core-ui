@@ -9,6 +9,7 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { PopoverModule } from 'ngx-bootstrap/popover';
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { AlertModule } from 'ngx-bootstrap/alert';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
         PopoverModule.forRoot(),
         ProgressbarModule.forRoot(),
         TooltipModule.forRoot(),
+        AlertModule.forRoot(),
     ],
     exports: [
         CommonModule,
@@ -33,6 +35,7 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
         PopoverModule,
         ProgressbarModule,
         TooltipModule,
+        AlertModule,
     ]
 })
 export class SharedBootstrapModule { }
