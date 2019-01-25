@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
-
+import { setTheme } from 'ngx-bootstrap/utils';
 import { filter, map, mergeMap } from 'rxjs/operators';
 
 @Component({
@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
     private router: Router,
     private activatedRoute: ActivatedRoute
   ) {
-
+    setTheme('bs4'); // or 'bs3'
   }
 
   ngOnInit() {

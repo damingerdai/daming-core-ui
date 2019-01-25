@@ -9,7 +9,7 @@ export const routes = [
             title: 'Home'
         },
         children: [
-            { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+            { path: '', redirectTo: 'dashboard',  pathMatch: 'full', },
             { path: 'theme', loadChildren: './theme/theme.module#ThemeModule' },
             { path: 'base', loadChildren: './base/base.module#BaseModule' },
             { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
@@ -20,7 +20,7 @@ export const routes = [
             { path: 'widgets', loadChildren: './widgets/widgets.module#WidgetsModule' },
         ]
     },
-
+    { path: 'pages', loadChildren: './pages/pages.module#PagesModule'},
     // Not found
     { path: '**', redirectTo: 'home' }
 

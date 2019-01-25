@@ -217,22 +217,22 @@ export const navItems: NavData[] = [
         children: [
             {
                 name: 'Login',
-                url: '/login',
+                url: '/pages/login',
                 icon: 'icon-star'
             },
             {
                 name: 'Register',
-                url: '/register',
+                url: '/pages/register',
                 icon: 'icon-star'
             },
             {
                 name: 'Error 404',
-                url: '/404',
+                url: '/pages/404',
                 icon: 'icon-star'
             },
             {
                 name: 'Error 500',
-                url: '/500',
+                url: '/pages/500',
                 icon: 'icon-star'
             }
         ]
