@@ -15,6 +15,7 @@ export const routes = [
             { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
             { path: 'buttons', loadChildren: './buttons/buttons.module#ButtonsModule' },
             { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
+            { path: 'icons', loadChildren: './icons/icons.module#IconsModule' },
         ]
     },
 
