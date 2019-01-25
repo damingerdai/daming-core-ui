@@ -222,7 +222,7 @@ export const navItems: NavData[] = [
             },
             {
                 name: 'Register',
-                url: '/register',
+                url: '/pages/register',
                 icon: 'icon-star'
             },
             {
