@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ButtonsRoutingModule } from './buttons-rounting.module';
+import { ButtonsRoutingModule } from './buttons-routing.module';
 import { ButtonsComponent } from './buttons/buttons.component';
 
 @NgModule({
