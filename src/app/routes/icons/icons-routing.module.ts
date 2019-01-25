@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CoreuiIconsComponent } from './coreui-icons/coreui-icons.component';
 import { FlagsComponent } from './flags/flags.component';
+import { FontAwesomeComponent } from './font-awesome/font-awesome.component';
 
 // import { FlagsComponent } from './flags.component';
 // import { FontAwesomeComponent } from './font-awesome.component';
@@ -32,13 +33,13 @@ const routes: Routes = [
                 title: 'Flags'
               }
             },
-            // {
-            //   path: 'font-awesome',
-            //   component: FontAwesomeComponent,
-            //   data: {
-            //     title: 'Font Awesome'
-            //   }
-            // },
+            {
+              path: 'font-awesome',
+              component: FontAwesomeComponent,
+              data: {
+                title: 'Font Awesome'
+              }
+            },
             // {
             //   path: 'simple-line-icons',
             //   component: SimpleLineIconsComponent,
