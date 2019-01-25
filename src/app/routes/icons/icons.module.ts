@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CoreuiIconsComponent } from './coreui-icons/coreui-icons.component';
+import { IconsRoutingModule } from './icons-routing.module';
+import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({
-  declarations: [],
+  declarations: [CoreuiIconsComponent],
   imports: [
-    CommonModule
+    SharedModule,
+    IconsRoutingModule
   ]
 })
 export class IconsModule { }
