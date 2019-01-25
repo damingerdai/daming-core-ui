@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AlertsComponent } from './alerts/alerts.component';
 import { BadgesComponent } from './badges/badges.component';
+import { ModalsComponent } from './modals/modals.component';
 
 const routes: Routes = [
     {
@@ -28,13 +29,13 @@ const routes: Routes = [
                   title: 'Badges'
                 }
               },
-            //   {
-            //     path: 'modals',
-            //     component: ModalsComponent,
-            //     data: {
-            //       title: 'Modals'
-            //     }
-            //   }
+              {
+                path: 'modals',
+                component: ModalsComponent,
+                data: {
+                  title: 'Modals'
+                }
+              }
         ]
     }
 ];
