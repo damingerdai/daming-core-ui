@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
     {
-        path: '',
-       //  component: ChartsComponent,
+        path: 'login',
+        component: LoginComponent,
         data: {
-            title: 'Charts'
+          title: 'Login Page'
         }
-    }
+      },
 ];
 
 
