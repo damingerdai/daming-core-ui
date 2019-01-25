@@ -20,7 +20,7 @@ export const routes = [
             { path: 'widgets', loadChildren: './widgets/widgets.module#WidgetsModule' },
         ]
     },
-
+    { path: 'pages', loadChildren: './pages/pages.module#PagesModule'},
     // Not found
     { path: '**', redirectTo: 'home' }
 
