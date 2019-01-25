@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CoreuiIconsComponent } from './coreui-icons/coreui-icons.component';
 
-// import { CoreUIIconsComponent } from './coreui-icons.component';
 // import { FlagsComponent } from './flags.component';
 // import { FontAwesomeComponent } from './font-awesome.component';
 // import { SimpleLineIconsComponent } from './simple-line-icons.component';
@@ -17,13 +17,13 @@ const routes: Routes = [
                 path: '',
                 redirectTo: 'coreui-icons'
             },
-            // {
-            //   path: 'coreui-icons',
-            //   component: CoreUIIconsComponent,
-            //   data: {
-            //     title: 'CoreUI Icons'
-            //   }
-            // },
+            {
+              path: 'coreui-icons',
+              component: CoreuiIconsComponent,
+              data: {
+                title: 'CoreUI Icons'
+              }
+            },
             // {
             //   path: 'flags',
             //   component: FlagsComponent,
