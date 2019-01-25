@@ -16,6 +16,7 @@ export const routes = [
             { path: 'buttons', loadChildren: './buttons/buttons.module#ButtonsModule' },
             { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
             { path: 'icons', loadChildren: './icons/icons.module#IconsModule' },
+            { path: 'notifications', loadChildren: './notifications/notifications.module#NotificationsModule' },
         ]
     },
 
