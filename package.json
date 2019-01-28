@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "push": "ng build --prod --base-href /daming-core-ui && npx angular-cli-ghpages --dir=dist/daming-core-ui "
+    "push": "ng build --prod --base-href ./ && npx angular-cli-ghpages --dir=dist/daming-core-ui "
   },
   "private": true,
   "dependencies": {
