@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "preinstall": "node tools/yarn/check-yarn.js"
+    "push": "ng build --prod --base-href ./ && npx angular-cli-ghpages --dir=dist/daming-core-ui "
   },
   "private": true,
   "dependencies": {
@@ -33,6 +33,7 @@
     "ng2-charts": "^1.6.0",
     "ngx-bootstrap": "^3.1.4",
     "ngx-perfect-scrollbar": "^7.2.0",
+    "ngx-toastr": "^9.1.1",
     "rxjs": "~6.3.3",
     "simple-line-icons": "^2.4.1",
     "tslib": "^1.9.0",
@@ -43,9 +44,10 @@
     "@angular/cli": "~7.2.2",
     "@angular/compiler-cli": "~7.2.0",
     "@angular/language-service": "~7.2.0",
-    "@types/node": "~8.9.4",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "angular-cli-ghpages": "^0.5.3",
     "codelyzer": "~4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
