@@ -4,5 +4,12 @@
 @import '~font-awesome/css/font-awesome.css';
 @import '~flag-icon-css/css/flag-icon.css';
 @import '~simple-line-icons/css/simple-line-icons.css';
-// @import '~@coreui/icons/css/coreui-icons.css';
+
+// regular style toast 
+@import '~ngx-toastr/toastr.css';
+ 
+// bootstrap style toast 
+// or import a bootstrap 4 alert styled design (SASS ONLY) 
+// should be after your bootstrap imports, it uses bs4 variables, mixins, functions 
+// @import '~ngx-toastr/toastr-bs4-alert';
 

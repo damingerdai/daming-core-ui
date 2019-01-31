@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AlertsComponent } from './alerts/alerts.component';
 import { BadgesComponent } from './badges/badges.component';
 import { ModalsComponent } from './modals/modals.component';
+import { ToastrComponent } from './toastr/toastr.component';
 
 const routes: Routes = [
     {
@@ -34,6 +35,13 @@ const routes: Routes = [
                 component: ModalsComponent,
                 data: {
                   title: 'Modals'
+                }
+              },
+              {
+                path: 'toastr',
+                component: ToastrComponent,
+                data: {
+                  title: 'Toastr'
                 }
               }
         ]
