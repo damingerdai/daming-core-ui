@@ -4,6 +4,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
+import { ToastrModule } from 'ngx-toastr';
 import { SharedBootstrapModule } from './shared.bootstrap.module';
 
 
@@ -15,6 +16,7 @@ import { SharedBootstrapModule } from './shared.bootstrap.module';
     PerfectScrollbarModule,
     SharedBootstrapModule,
     ChartsModule,
+    ToastrModule.forRoot(),
   ],
   exports: [
     CommonModule,
@@ -24,6 +26,7 @@ import { SharedBootstrapModule } from './shared.bootstrap.module';
     PerfectScrollbarModule,
     ChartsModule,
     RouterModule,
+    ToastrModule,
   ]
 })
 export class SharedModule {
