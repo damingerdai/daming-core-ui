@@ -192,11 +192,11 @@ export const navItems: NavData[] = [
                 url: '/notifications/modals',
                 icon: 'icon-bell'
             },
-            // {
-            //     name: 'Toastr',
-            //     url: '/notifications/toastr',
-            //     icon: 'icon-bell'
-            // }
+            {
+                name: 'Toastr',
+                url: '/notifications/toastr',
+                icon: 'icon-bell'
+            }
         ]
     },
     {

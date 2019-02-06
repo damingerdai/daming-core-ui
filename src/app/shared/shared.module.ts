@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { ToastrModule } from 'ngx-toastr';
+import { ToasterModule } from 'angular2-toaster';
 import { SharedBootstrapModule } from './shared.bootstrap.module';
 
 
@@ -17,6 +18,7 @@ import { SharedBootstrapModule } from './shared.bootstrap.module';
     SharedBootstrapModule,
     ChartsModule,
     ToastrModule.forRoot(),
+    ToasterModule.forRoot(),
   ],
   exports: [
     CommonModule,
@@ -27,6 +29,7 @@ import { SharedBootstrapModule } from './shared.bootstrap.module';
     ChartsModule,
     RouterModule,
     ToastrModule,
+    ToasterModule,
   ]
 })
 export class SharedModule {

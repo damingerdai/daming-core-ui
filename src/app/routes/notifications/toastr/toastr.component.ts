@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
+import { ToasterService } from 'angular2-toaster';
 
 @Component({
   selector: 'app-toastr',
@@ -9,15 +10,32 @@ import { ToastrService } from 'ngx-toastr';
 export class ToastrComponent implements OnInit {
 
   constructor(
-    private toastr: ToastrService
+    private toastr: ToastrService,
+    private toasterService: ToasterService
   ) { }
 
+  show(type: string) {
+    this.toastr.info(type, 'Hello world!');
+  }
+
+  showPrimary() {
+    this.toastr.show('Hello world!', 'Toastr fun!');
+  }
+
   showSuccess() {
-    console.log('t');
-    console.log(this.toastr);
-    const result = this.toastr.info('success', 'Hello world!');
     this.toastr.success('Hello world!', 'Toastr fun!');
-    console.log(result);
+  }
+
+  showWarn() {
+    this.toastr.warning('Hello world!', 'Toastr fun!');
+  }
+
+  showDanger() {
+    this.toastr.error('Hello world!', 'Toastr fun!');
+  }
+
+  showInfo() {
+    this.toastr.info('Hello world!', 'Toastr fun!');
   }
 
   ngOnInit() {
