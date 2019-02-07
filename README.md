@@ -8,6 +8,7 @@
 其功能与core ui基本一致，存在部分改动：
 1.  改造项目结构，使用angular官方推荐的项目结构
 2.  添加toastr组件(该相似组件仅在Core UI收费版提供，免费版不提供)
+3.  添加首屏渲染
 
 # 下一步计划
 1. toaster组件添加使用angular2-toaster
