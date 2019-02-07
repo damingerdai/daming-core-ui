@@ -1,4 +1,7 @@
 # DamingCoreUi
+![](https://img.shields.io/github/last-commit/damingerdai/daming-core-ui.svg?style=flat)
+![](https://img.shields.io/github/issues/detail/u/damingerdai/daming-core-ui/1.svg?style=flat)
+![](https://img.shields.io/github/license/damingerdai/daming-core-ui.svg?style=flat)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
