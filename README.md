@@ -3,28 +3,20 @@
 ![](https://img.shields.io/github/issues/detail/u/damingerdai/daming-core-ui/1.svg?style=flat)
 ![](https://img.shields.io/github/license/damingerdai/daming-core-ui.svg?style=flat)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+# 说明
+该项目基于![Core UI](https://coreui.io/)的![angular2](https://coreui.io/angular)版二次开发。
+其功能与core ui基本一致，存在部分改动：
+1.  改造项目结构，使用angular官方推荐的项目结构
+2.  添加toastr组件(该相似组件仅在Core UI收费版提供，免费版不提供)
 
-## Development server
+# 下一步计划
+1. toaster组件添加使用angular2-toaster
+2. 修复dashboard组件中的bug
+```
+ERROR Error: No value accessor for form control with unspecified
+```
+3. 添加国际化的支持
+4. 添加针对我个人的说明介绍(争取)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# 体验
+![Github Page](https://damingerdai.github.io/daming-core-ui)
