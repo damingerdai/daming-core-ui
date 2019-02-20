@@ -11,7 +11,7 @@
 3.  添加首屏渲染
 
 # 下一步计划
-1. toaster组件添加使用angular2-toaster
+1. toaster组件添加使用angular2-toaster(已经完成)
 2. 修复dashboard组件中的bug
 ```
 ERROR Error: No value accessor for form control with unspecified
