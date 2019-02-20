@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
-import { ToasterService } from 'angular2-toaster';
+import { ToasterService, ToasterConfig } from 'angular2-toaster';
 
 @Component({
   selector: 'app-toastr',
@@ -8,6 +8,13 @@ import { ToasterService } from 'angular2-toaster';
   styleUrls: ['./toastr.component.scss']
 })
 export class ToastrComponent implements OnInit {
+
+  config: ToasterConfig =
+    new ToasterConfig({
+      showCloseButton: true,
+      tapToDismiss: false,
+      timeout: 0
+    });
 
   constructor(
     private toastr: ToastrService,
@@ -36,6 +43,52 @@ export class ToastrComponent implements OnInit {
 
   showInfo() {
     this.toastr.info('Hello world!', 'Toastr fun!');
+  }
+
+  showPrimary2() {
+    // this.toasterService.pop('primary', 'Hello world!', 'Toastr fun!');
+    this.toasterService.pop({
+      type: 'primary',
+      title: 'Hello world!',
+      body: 'Toastr fun!',
+      timeout: 10000
+    });
+  }
+
+  showSuccess2() {
+    this.toasterService.pop({
+      type: 'success',
+      title: 'Hello world!',
+      body: 'Toastr fun!',
+      timeout: 10000
+    });
+  }
+
+  showWarn2() {
+    this.toasterService.pop({
+      type: 'warning',
+      title: 'Hello world!',
+      body: 'Toastr fun!',
+      timeout: 10000
+    });
+  }
+
+  showDanger2() {
+    this.toasterService.pop({
+      type: 'error',
+      title: 'Hello world!',
+      body: 'Toastr fun!',
+      timeout: 10000
+    });
+  }
+
+  showInfo2() {
+    this.toasterService.pop({
+      type: 'info',
+      title: 'Hello world!',
+      body: 'Toastr fun!',
+      timeout: 10000
+    });
   }
 
   ngOnInit() {
