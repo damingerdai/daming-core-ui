@@ -1,3 +1,9 @@
-.pager li.btn:active { 
-    box-shadow: none; 
+.pager {
+	li {
+		&.btn {
+			&:active {
+				box-shadow: none;
+			}
+		}
+	}
 }

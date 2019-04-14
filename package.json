@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "sass": "sass-lint -v -q",
     "push": "ng build --prod --base-href ./ && npx angular-cli-ghpages --dir=dist/daming-core-ui "
   },
   "private": true,
