@@ -15,7 +15,6 @@ export function getAlertConfig(): AlertConfig {
 })
 export class AlertsComponent implements OnInit {
 
- 
   dismissible = true;
   alerts: any = [
     {
