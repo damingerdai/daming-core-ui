@@ -1,6 +1,8 @@
+$app-body-background-color: rgb(228, 229, 230);
+
 .app-body {
-    background: {
-        color: rgb(228, 229, 230)
-    }
-    height: 100vh;
+	background: {
+		color: $app-body-background-color;
+	}
+	height: 100vh;
 }

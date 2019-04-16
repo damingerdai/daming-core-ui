@@ -1,4 +1,6 @@
-.dropup .dropdown-menu {
-    transform: none!important;
-  }
-  
+.dropup {
+	.dropdown-menu {
+		// sass-lint:disable no-important
+		transform: none !important;
+	}
+}
