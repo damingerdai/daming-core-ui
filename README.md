@@ -12,7 +12,7 @@
 
 # 下一步计划
 1. toaster组件添加使用angular2-toaster(已经完成)
-2. 修复dashboard组件中的bug
+2. 修复dashboard组件中的bug(已经修复)
 ```
 ERROR Error: No value accessor for form control with unspecified
 ```
