@@ -1,0 +1,159 @@
+options:
+  formatter: stylish
+
+files:
+  include: '**/*.s+(a|c)ss'
+  ignore:
+   	- 'node_modules/**/*.s+(a|c)ss'
+    - 'src/assets/**/*.s+(a|c)ss'
+resolvers:
+  extends-before-declarations: 1
+  extends-before-mixins: 1
+  indentation: 1
+  no-empty-rulesets: 1
+  no-trailing-whitespace: 1
+  no-trailing-zero: 1
+  property-sort-order: 1
+  space-after-bang: 1
+  space-after-colon: 1
+  space-after-comma: 1
+  space-around-operator: 1
+  space-before-bang: 1
+  space-before-brace: 1
+  space-before-colon: 1
+  space-between-parens: 1
+
+rules:
+  # Extends
+  extends-before-mixins: 2
+  extends-before-declarations: 2
+  placeholder-in-extend: 2
+
+  # Mixins
+  mixins-before-declarations: 2
+
+  # Line Spacing
+  one-declaration-per-line: 2
+  empty-line-between-blocks: 2
+  single-line-per-selector: 0
+
+
+  # Disallows
+  no-attribute-selectors: 0
+  no-color-keywords: 2
+  no-color-literals: 2
+  no-combinators: 0
+  no-debug: 2
+  no-duplicate-properties: 2
+  no-empty-rulesets: 2
+  no-ids: 0
+  no-important: 2
+  no-invalid-hex: 2
+  no-mergeable-selectors: 2
+  no-misspelled-properties: 2
+  no-qualifying-elements:
+    - 2
+    -
+      allow-element-with-attribute: true
+  no-trailing-whitespace: 2
+  no-trailing-zero: 2
+  no-transition-all: 2
+  no-universal-selectors: 2
+  no-url-domains: 0
+  no-url-protocols: 0
+  no-vendor-prefixes: 0
+  no-warn: 2
+
+  # Nesting
+  declarations-before-nesting: 2
+  force-attribute-nesting: 2
+  force-element-nesting: 2
+  force-pseudo-nesting: 2
+
+  # Name Formats
+  class-name-format:
+    - 2
+    -
+      convention: strictbem
+  function-name-format:
+    - 2
+    -
+      allow-leading-undercore: false
+      convention: camelcase
+  id-name-format:
+    - 2
+    -
+      allow-leading-undercore: false
+      convention: hyphenatedlowercase
+  mixin-name-format:
+    - 2
+    -
+      allow-leading-underscore: false
+      convention: camelcase
+  placeholder-name-format:
+    - 2
+    -
+      allow-leading-underscore: false
+      convention: camelcase
+  variable-name-format:
+    - 2
+    -
+      allow-leading-underscore: false
+      convention: hyphenatedlowercase
+
+  # Style Guide
+  attribute-quotes: 2
+  bem-depth:
+    - 2
+    -
+      max-depth: 3
+  border-zero: 0
+  brace-style: 2
+  clean-import-paths: 0
+  empty-args: 2
+  hex-length:
+    - 2
+    -
+      style: short
+  hex-notation: 2
+  indentation:
+    - 2
+    -
+      size: 'tab'
+  leading-zero: 2
+  nesting-depth:
+    - 2
+    -
+      max-depth: 3
+  property-sort-order: 2
+  pseudo-element: 2
+  quotes: 2
+  shorthand-values: 2
+  url-quotes: 2
+  variable-for-property:
+    - 1
+    -
+      'properties':
+      - 'border-radius'
+      - 'border-width'
+      - 'bottom'
+      - 'font-size'
+      - 'left'
+      - 'line-height'
+      - 'right'
+      - 'top'
+  zero-unit: 2
+
+  # Inner Spacing
+  space-after-comma: 2
+  space-before-colon: 2
+  space-after-colon: 2
+  space-before-brace: 2
+  space-before-bang: 2
+  space-after-bang: 2
+  space-between-parens: 2
+  space-around-operator: 2
+
+  # Final Items
+  trailing-semicolon: 2
+  final-newline: 0

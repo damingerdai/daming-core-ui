@@ -7,7 +7,9 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
+		"e2e": "ng e2e",
+		"precommit": "ng lint daming-core-ui && sass-lint -v -q",
+    "sass": "sass-lint -v -q",
     "push": "ng build --prod --base-href ./ && npx angular-cli-ghpages --dir=dist/daming-core-ui "
   },
   "private": true,
@@ -58,6 +60,7 @@
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.4.0",
+    "sass-lint": "^1.12.1",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
