@@ -3,17 +3,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { ChartsComponent } from './charts/charts.component';
 
 const routes: Routes = [
-    {
-        path: '',
-        component: ChartsComponent,
-        data: {
-            title: 'Charts'
-        }
-    }
+	{
+		path: '',
+		component: ChartsComponent,
+		data: {
+			title: 'Charts'
+		}
+	}
 ];
 
 @NgModule({
-    imports: [RouterModule.forChild(routes)],
-    exports: [RouterModule]
+	imports: [RouterModule.forChild(routes)],
+	exports: [RouterModule]
 })
 export class ChartsRoutingModule { }

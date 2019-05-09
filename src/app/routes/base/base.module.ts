@@ -15,22 +15,22 @@ import { TabsComponent } from './tabs/tabs.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
 
 @NgModule({
-  declarations: [
-    CardsComponent,
-    CarouselsComponent,
-    CollapsesComponent,
-    PaginationsComponent,
-    FormsComponent,
-    PopoversComponent,
-    ProgressComponent,
-    SwitchesComponent,
-    TablesComponent,
-    TabsComponent,
-    TooltipsComponent
-  ],
-  imports: [
-    SharedModule,
-    BaseRoutingModule
-  ]
+	declarations: [
+		CardsComponent,
+		CarouselsComponent,
+		CollapsesComponent,
+		PaginationsComponent,
+		FormsComponent,
+		PopoversComponent,
+		ProgressComponent,
+		SwitchesComponent,
+		TablesComponent,
+		TabsComponent,
+		TooltipsComponent
+	],
+	imports: [
+		SharedModule,
+		BaseRoutingModule
+	]
 })
 export class BaseModule { }
