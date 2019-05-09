@@ -3,17 +3,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { WidgetsComponent } from './widgets/widgets.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: WidgetsComponent,
-    data: {
-      title: 'Widgets'
-    }
-  }
+	{
+		path: '',
+		component: WidgetsComponent,
+		data: {
+			title: 'Widgets'
+		}
+	}
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+	imports: [RouterModule.forChild(routes)],
+	exports: [RouterModule]
 })
-export class WidgetsRoutingModule {}
+export class WidgetsRoutingModule { }

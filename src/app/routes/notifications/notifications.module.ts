@@ -7,15 +7,15 @@ import { ModalsComponent } from './modals/modals.component';
 import { ToastrComponent } from './toastr/toastr.component';
 
 @NgModule({
-  declarations: [
-    AlertsComponent,
-    BadgesComponent,
-    ModalsComponent,
-    ToastrComponent
-  ],
-  imports: [
-    SharedModule,
-    NotificationsRoutingModule
-  ]
+	declarations: [
+		AlertsComponent,
+		BadgesComponent,
+		ModalsComponent,
+		ToastrComponent
+	],
+	imports: [
+		SharedModule,
+		NotificationsRoutingModule
+	]
 })
 export class NotificationsModule { }

@@ -10,51 +10,51 @@ import { SimpleLineIconsComponent } from './simple-line-icons/simple-line-icons.
 // import { SimpleLineIconsComponent } from './simple-line-icons.component';
 
 const routes: Routes = [
-    {
-        path: '',
-        data: {
-            title: 'Icons'
-        },
-        children: [
-            {
-                path: '',
-                redirectTo: 'coreui-icons'
-            },
-            {
-              path: 'coreui-icons',
-              component: CoreuiIconsComponent,
-              data: {
-                title: 'CoreUI Icons'
-              }
-            },
-            {
-              path: 'flags',
-              component: FlagsComponent,
-              data: {
-                title: 'Flags'
-              }
-            },
-            {
-              path: 'font-awesome',
-              component: FontAwesomeComponent,
-              data: {
-                title: 'Font Awesome'
-              }
-            },
-            {
-              path: 'simple-line-icons',
-              component: SimpleLineIconsComponent,
-              data: {
-                title: 'Simple Line Icons'
-              }
-            }
-        ]
-    }
+	{
+		path: '',
+		data: {
+			title: 'Icons'
+		},
+		children: [
+			{
+				path: '',
+				redirectTo: 'coreui-icons'
+			},
+			{
+				path: 'coreui-icons',
+				component: CoreuiIconsComponent,
+				data: {
+					title: 'CoreUI Icons'
+				}
+			},
+			{
+				path: 'flags',
+				component: FlagsComponent,
+				data: {
+					title: 'Flags'
+				}
+			},
+			{
+				path: 'font-awesome',
+				component: FontAwesomeComponent,
+				data: {
+					title: 'Font Awesome'
+				}
+			},
+			{
+				path: 'simple-line-icons',
+				component: SimpleLineIconsComponent,
+				data: {
+					title: 'Simple Line Icons'
+				}
+			}
+		]
+	}
 ];
 
 @NgModule({
-    imports: [RouterModule.forChild(routes)],
-    exports: [RouterModule]
+	imports: [RouterModule.forChild(routes)],
+	exports: [RouterModule]
 })
 export class IconsRoutingModule {
 
