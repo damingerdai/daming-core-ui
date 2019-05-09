@@ -10,33 +10,33 @@ import { SharedBootstrapModule } from './shared.bootstrap.module';
 
 
 @NgModule({
-  imports: [
-    CommonModule,
-    ReactiveFormsModule,
-    FormsModule,
-    PerfectScrollbarModule,
-    SharedBootstrapModule,
-    ChartsModule,
-    ToastrModule.forRoot(),
-    ToasterModule.forRoot(),
-  ],
-  exports: [
-    CommonModule,
-    ReactiveFormsModule,
-    FormsModule,
-    SharedBootstrapModule,
-    PerfectScrollbarModule,
-    ChartsModule,
-    RouterModule,
-    ToastrModule,
-    ToasterModule,
-  ]
+	imports: [
+		CommonModule,
+		ReactiveFormsModule,
+		FormsModule,
+		PerfectScrollbarModule,
+		SharedBootstrapModule,
+		ChartsModule,
+		ToastrModule.forRoot(),
+		ToasterModule.forRoot(),
+	],
+	exports: [
+		CommonModule,
+		ReactiveFormsModule,
+		FormsModule,
+		SharedBootstrapModule,
+		PerfectScrollbarModule,
+		ChartsModule,
+		RouterModule,
+		ToastrModule,
+		ToasterModule,
+	]
 })
 export class SharedModule {
 
-  static forRoot(): ModuleWithProviders {
-    return {
-      ngModule: SharedModule
-    };
-  }
+	static forRoot(): ModuleWithProviders {
+		return {
+			ngModule: SharedModule
+		};
+	}
 }

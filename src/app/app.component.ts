@@ -5,35 +5,35 @@ import { setTheme } from 'ngx-bootstrap/utils';
 import { filter, map, mergeMap } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+	selector: 'app-root',
+	templateUrl: './app.component.html',
+	styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
 
-  title = 'damingerdai-ui';
+	title = 'damingerdai-ui';
 
-  constructor(
-    private titleService: Title,
-    private router: Router,
-    private activatedRoute: ActivatedRoute
-  ) {
-    setTheme('bs4'); // or 'bs3'
-  }
+	constructor(
+		private titleService: Title,
+		private router: Router,
+		private activatedRoute: ActivatedRoute
+	) {
+		setTheme('bs4'); // or 'bs3'
+	}
 
-  ngOnInit() {
-    this.router.events
-      .pipe(
-        filter(event => event instanceof NavigationEnd),
-        map(() => this.activatedRoute),
-        map((route) => {
-          while (route.firstChild) {
-            route = route.firstChild;
-          }
-          return route;
-        }),
-        mergeMap(route => route.data),
-        map(data => data as { title: string })
-      ).subscribe(event => this.titleService.setTitle(event.title || this.title));
-  }
+	ngOnInit() {
+		this.router.events
+			.pipe(
+				filter(event => event instanceof NavigationEnd),
+				map(() => this.activatedRoute),
+				map((route) => {
+					while (route.firstChild) {
+						route = route.firstChild;
+					}
+					return route;
+				}),
+				mergeMap(route => route.data),
+				map(data => data as { title: string })
+			).subscribe(event => this.titleService.setTitle(event.title || this.title));
+	}
 }

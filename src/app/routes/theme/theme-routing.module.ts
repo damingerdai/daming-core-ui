@@ -4,36 +4,36 @@ import { ColorsComponent } from './colors/colors.component';
 import { TypographyComponent } from './typography/typography.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    data: {
-      title: 'Theme'
-    },
-    children: [
-      {
-        path: '',
-        redirectTo: 'colors'
-      },
-      {
-        path: 'colors',
-        component: ColorsComponent,
-        data: {
-          title: 'Colors'
-        }
-      },
-      {
-        path: 'typography',
-        component: TypographyComponent,
-        data: {
-          title: 'Typography'
-        }
-      }
-    ]
-  }
+	{
+		path: '',
+		data: {
+			title: 'Theme'
+		},
+		children: [
+			{
+				path: '',
+				redirectTo: 'colors'
+			},
+			{
+				path: 'colors',
+				component: ColorsComponent,
+				data: {
+					title: 'Colors'
+				}
+			},
+			{
+				path: 'typography',
+				component: TypographyComponent,
+				data: {
+					title: 'Typography'
+				}
+			}
+		]
+	}
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+	imports: [RouterModule.forChild(routes)],
+	exports: [RouterModule]
 })
-export class ThemeRoutingModule {}
+export class ThemeRoutingModule { }

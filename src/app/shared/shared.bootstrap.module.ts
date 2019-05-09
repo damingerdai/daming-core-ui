@@ -14,31 +14,31 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 
 
 @NgModule({
-    imports: [
-        CommonModule,
-        BsDropdownModule.forRoot(),
-        TabsModule.forRoot(),
-        CarouselModule.forRoot(),
-        CollapseModule.forRoot(),
-        PaginationModule.forRoot(),
-        PopoverModule.forRoot(),
-        ProgressbarModule.forRoot(),
-        TooltipModule.forRoot(),
-        AlertModule.forRoot(),
-        ModalModule.forRoot(),
-    ],
-    exports: [
-        CommonModule,
-        BsDropdownModule,
-        TabsModule,
-        CarouselModule,
-        CollapseModule,
-        PaginationModule,
-        PopoverModule,
-        ProgressbarModule,
-        TooltipModule,
-        AlertModule,
-        ModalModule,
-    ]
+	imports: [
+		CommonModule,
+		BsDropdownModule.forRoot(),
+		TabsModule.forRoot(),
+		CarouselModule.forRoot(),
+		CollapseModule.forRoot(),
+		PaginationModule.forRoot(),
+		PopoverModule.forRoot(),
+		ProgressbarModule.forRoot(),
+		TooltipModule.forRoot(),
+		AlertModule.forRoot(),
+		ModalModule.forRoot(),
+	],
+	exports: [
+		CommonModule,
+		BsDropdownModule,
+		TabsModule,
+		CarouselModule,
+		CollapseModule,
+		PaginationModule,
+		PopoverModule,
+		ProgressbarModule,
+		TooltipModule,
+		AlertModule,
+		ModalModule,
+	]
 })
 export class SharedBootstrapModule { }

@@ -4,21 +4,21 @@ import { NavData, NAV_DATA } from '../../routes/nav';
 import { CoreModule } from '../core.module';
 
 @Injectable({
-  providedIn: CoreModule,
+	providedIn: CoreModule,
 })
 export class NavService {
 
-  private navs: NavData[];
+	private navs: NavData[];
 
-  private navsSource = new Subject<NavData[]>();
+	private navsSource = new Subject<NavData[]>();
 
-  nav$ = this.navsSource.asObservable();
+	nav$ = this.navsSource.asObservable();
 
-  constructor(@Inject(NAV_DATA) navs: NavData[]) {
-    this.navs = navs;
-  }
+	constructor(@Inject(NAV_DATA) navs: NavData[]) {
+		this.navs = navs;
+	}
 
-  getNavs() {
-    return this.navs;
-  }
+	getNavs() {
+		return this.navs;
+	}
 }

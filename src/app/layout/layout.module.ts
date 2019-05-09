@@ -9,16 +9,16 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { AsideComponent } from './aside/aside.component';
 
 @NgModule({
-  declarations: [
-    LayoutComponent,
-    HeaderComponent,
-    FooterComponent,
-    SidebarComponent,
-    AsideComponent],
-  imports: [
-    CommonModule,
-    SharedModule,
-    SharedCoreuiAngularModule
-  ]
+	declarations: [
+		LayoutComponent,
+		HeaderComponent,
+		FooterComponent,
+		SidebarComponent,
+		AsideComponent],
+	imports: [
+		CommonModule,
+		SharedModule,
+		SharedCoreuiAngularModule
+	]
 })
 export class LayoutModule { }

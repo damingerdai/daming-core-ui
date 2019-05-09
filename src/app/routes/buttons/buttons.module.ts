@@ -6,14 +6,14 @@ import { DropdownsComponent } from './dropdowns/dropdowns.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
-  declarations: [
-    ButtonsComponent,
-    BrandButtonsComponent,
-    DropdownsComponent,
-  ],
-  imports: [
-    SharedModule,
-    ButtonsRoutingModule
-  ]
+	declarations: [
+		ButtonsComponent,
+		BrandButtonsComponent,
+		DropdownsComponent,
+	],
+	imports: [
+		SharedModule,
+		ButtonsRoutingModule
+	]
 })
 export class ButtonsModule { }

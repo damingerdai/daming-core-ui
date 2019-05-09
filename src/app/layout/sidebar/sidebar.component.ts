@@ -3,26 +3,26 @@ import { NavService } from '../../core/nav/nav.service';
 import { NavData } from 'src/app/routes/nav';
 
 @Component({
-  selector: 'app-layout-sidebar',
-  templateUrl: './sidebar.component.html',
-  styleUrls: ['./sidebar.component.scss']
+	selector: 'app-layout-sidebar',
+	templateUrl: './sidebar.component.html',
+	styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent implements OnInit {
 
-  private _sidebarMinimized: boolean;
+	private _sidebarMinimized: boolean;
 
-  @Input()
-  set sidebarMinimized(_sidebarMinimized: boolean) {
-    this._sidebarMinimized = _sidebarMinimized;
-  }
+	@Input()
+	set sidebarMinimized(_sidebarMinimized: boolean) {
+		this._sidebarMinimized = _sidebarMinimized;
+	}
 
-  navItems: NavData[];
+	navItems: NavData[];
 
-  constructor(private navService: NavService) {
-    this.navItems = this.navService.getNavs();
-   }
+	constructor(private navService: NavService) {
+		this.navItems = this.navService.getNavs();
+	}
 
-  ngOnInit() {
-  }
+	ngOnInit() {
+	}
 
 }

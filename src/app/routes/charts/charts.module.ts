@@ -4,10 +4,10 @@ import { ChartsRoutingModule } from './charts-routing.module';
 import { ChartsComponent } from './charts/charts.component';
 
 @NgModule({
-  declarations: [ChartsComponent],
-  imports: [
-    SharedModule,
-    ChartsRoutingModule
-  ]
+	declarations: [ChartsComponent],
+	imports: [
+		SharedModule,
+		ChartsRoutingModule
+	]
 })
 export class ChartsModule { }

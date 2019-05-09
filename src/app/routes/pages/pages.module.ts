@@ -7,15 +7,15 @@ import { Page404Component } from './page404/page404.component';
 import { Page500Component } from './page500/page500.component';
 
 @NgModule({
-  declarations: [
-    LoginComponent,
-    RegisterComponent,
-    Page404Component,
-    Page500Component
-  ],
-  imports: [
-    SharedModule,
-    PagesRoutingModule,
-  ]
+	declarations: [
+		LoginComponent,
+		RegisterComponent,
+		Page404Component,
+		Page500Component
+	],
+	imports: [
+		SharedModule,
+		PagesRoutingModule,
+	]
 })
 export class PagesModule { }

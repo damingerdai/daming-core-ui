@@ -5,13 +5,13 @@ import { ThemeRoutingModule } from './theme-routing.module';
 import { TypographyComponent } from './typography/typography.component';
 
 @NgModule({
-  declarations: [
-    ColorsComponent,
-    TypographyComponent
-  ],
-  imports: [
-    CommonModule,
-    ThemeRoutingModule
-  ]
+	declarations: [
+		ColorsComponent,
+		TypographyComponent
+	],
+	imports: [
+		CommonModule,
+		ThemeRoutingModule
+	]
 })
 export class ThemeModule { }

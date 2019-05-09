@@ -5,19 +5,19 @@ import { throwIfAlreadyLoaded } from './module-import-guard';
 
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ],
-  providers: [
-    {
-      provide: NAV_DATA,
-      useValue: navItems
-    },
-  ]
+	declarations: [],
+	imports: [
+		CommonModule
+	],
+	providers: [
+		{
+			provide: NAV_DATA,
+			useValue: navItems
+		},
+	]
 })
 export class CoreModule {
-  constructor(@Optional() @SkipSelf() parentModule: CoreModule) {
-    throwIfAlreadyLoaded(parentModule, 'CoreModule');
-  }
+	constructor(@Optional() @SkipSelf() parentModule: CoreModule) {
+		throwIfAlreadyLoaded(parentModule, 'CoreModule');
+	}
 }
