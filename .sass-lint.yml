@@ -6,6 +6,7 @@ files:
   ignore:
    	- 'node_modules/**/*.s+(a|c)ss'
     - 'src/assets/**/*.s+(a|c)ss'
+    - 'dist/**/*.s+(a|c)ss'
 resolvers:
   extends-before-declarations: 1
   extends-before-mixins: 1
