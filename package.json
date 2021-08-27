@@ -12,7 +12,10 @@
     "e2e": "ng e2e",
     "sass": "sass-lint -v -q",
     "push": "ng build --prod --base-href ./ && npx angular-cli-ghpages --dir=dist/daming-core-ui",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only"
+    "postinstall": "ngcc --properties es2015 browser module main --first-only",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+		"version:patch": "yarn version --patch",
+		"version:minor": "yarn version --minor"
   },
   "private": true,
   "dependencies": {
