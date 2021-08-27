@@ -8,7 +8,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "precommit": "ng lint daming-core-ui && sass-lint -v -q",
     "sass": "sass-lint -v -q",
     "push": "ng build --prod --base-href ./ && npx angular-cli-ghpages --dir=dist/daming-core-ui",
     "postinstall": "ngcc --properties es2015 browser module main --first-only"
@@ -54,7 +53,7 @@
     "@types/node": "^12.11.1",
     "angular-cli-ghpages": "^0.5.3",
     "codelyzer": "^5.1.2",
-    "husky": "^2.2.0",
+    "husky": "^4.0.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~3.1.1",
@@ -67,5 +66,10 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "3.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "ng lint daming-core-ui && sass-lint -v -q"
+    }
   }
 }
