@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
-import { ChartsModule } from 'ng2-charts/ng2-charts';
+import { ChartsModule } from 'ng2-charts';
 import { ToastrModule } from 'ngx-toastr';
 import { ToasterModule } from 'angular2-toaster';
 import { SharedBootstrapModule } from './shared.bootstrap.module';
@@ -34,7 +34,7 @@ import { SharedBootstrapModule } from './shared.bootstrap.module';
 })
 export class SharedModule {
 
-	static forRoot(): ModuleWithProviders {
+	static forRoot(): ModuleWithProviders<SharedModule> {
 		return {
 			ngModule: SharedModule
 		};
