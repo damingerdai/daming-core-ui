@@ -1,3 +1,17 @@
+## [1.0.1](https://github.com/damingerdai/daming-core-ui/compare/v1.0.0...v1.0.1) (2021-08-30)
+
+
+### Bug Fixes
+
+* 修复‘No value accessor for form control with unspecified’的bug ([979ca22](https://github.com/damingerdai/daming-core-ui/commit/979ca22c67045b2d6a9c5cc1ad61cc05a2766d6f))
+
+
+### Features
+
+* 添加angular2-toaster ([26ff1d0](https://github.com/damingerdai/daming-core-ui/commit/26ff1d0e75ff54632ea9ce332681ead101f3a063))
+
+
+
 # [1.0.0](https://github.com/damingerdai/daming-core-ui/compare/v1.0.0...v0.0.0) (2021-08-27)
 
 
