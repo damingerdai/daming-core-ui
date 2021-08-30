@@ -972,10 +972,10 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
-"@coreui/angular@^2.9.6":
-  version "2.11.2"
-  resolved "https://registry.yarnpkg.com/@coreui/angular/-/angular-2.11.2.tgz#13e438a1bfb0ce213ba75ec5555359df0052066d"
-  integrity sha512-0C7xB+lGARu+GLn+SLEhTQfp+kEtB0yTxFP/Okwh2/N5zaKC7xdIbiEIt8eOFwk0TGxLfSmJ4wkgP+TS5AGSXA==
+"@coreui/angular@~2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@coreui/angular/-/angular-2.10.0.tgz#421e2a4aba8b3d3851a53d080d8880a3a7f04d99"
+  integrity sha512-Fz4wKUG70yxPPlzSQ9zp70NwgAXXLmgGr+51kOyhDG8zQWqXwIz9ayR0AGqPx+rOSKYPDdvxbc+xtQEXaESJUA==
   dependencies:
     tslib "^2.0.0"
 
@@ -991,7 +991,7 @@
   resolved "https://registry.yarnpkg.com/@coreui/coreui-plugin-npm-postinstall/-/coreui-plugin-npm-postinstall-1.0.2.tgz#6daeb2ec786580d9c0849b05bc3e8d0222d5c463"
   integrity sha512-yeeoWp+bNS84nP1977Y8UCiQ9pssO+f4QuVj3i0/gYZFjjvOgxx0dnyWhtowD5sLYnCRMPlPpqyjwXze3SlkYg==
 
-"@coreui/coreui@^2.1.16":
+"@coreui/coreui@~2.1.16":
   version "2.1.16"
   resolved "https://registry.yarnpkg.com/@coreui/coreui/-/coreui-2.1.16.tgz#93efb7d903bcd53092cc4bcc31ef8703de565457"
   integrity sha512-1YOnQAlcX2bIgnaX3k9GKaN4lD+wKam7tdDfFj7/ZQTN1XG3dwDELHp4aagWQs78ix2CCO1LyeLrzGpsMcLW3Q==
