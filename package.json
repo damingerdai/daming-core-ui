@@ -41,7 +41,7 @@
     "ng2-charts": "^2.3.2",
     "ngx-bootstrap": "^5.6.1",
     "ngx-perfect-scrollbar": "^10.1.1",
-    "ngx-toastr": "^12.1.0",
+    "ngx-toastr": "^13.2.1",
     "rxjs": "~6.6.7",
     "simple-line-icons": "^2.5.2",
     "tslib": "^2.0.0",
