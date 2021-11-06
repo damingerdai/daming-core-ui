@@ -5,7 +5,7 @@ import {
 	AppHeaderModule,
 	AppFooterModule,
 	AppSidebarModule,
-} from '@coreui/angular';
+} from './components';
 
 
 @NgModule({
