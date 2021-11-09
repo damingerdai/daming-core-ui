@@ -112,6 +112,14 @@
               "**/node_modules/**"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://damingerdai.github.io/daming-core-ui/",
+            "name": "Daming Core UI",
+            "email": "mingguobin@live.com"
+          }
         }
       }
     },
