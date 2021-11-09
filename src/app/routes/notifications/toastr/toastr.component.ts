@@ -45,16 +45,6 @@ export class ToastrComponent implements OnInit {
 		this.toastr.info('Hello world!', 'Toastr fun!');
 	}
 
-	showPrimary2() {
-		// this.toasterService.pop('primary', 'Hello world!', 'Toastr fun!');
-		this.toasterService.pop({
-			type: 'primary',
-			title: 'Hello world!',
-			body: 'Toastr fun!',
-			timeout: 10000
-		});
-	}
-
 	showSuccess2() {
 		this.toasterService.pop({
 			type: 'success',
