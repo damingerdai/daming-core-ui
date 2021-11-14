@@ -156,7 +156,7 @@ export class HtmlAttributesDirective implements OnInit {
   }
 
   private setStyle(styles) {
-	// eslint-disable-next-line  guard-for-in
+	// tslint:disable-next-line forin
 	for (const style in styles) {
 		this.renderer.setStyle(this.el.nativeElement, style, styles[style] );
 	}
