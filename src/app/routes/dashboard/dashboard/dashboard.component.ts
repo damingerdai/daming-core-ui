@@ -232,9 +232,9 @@ export class DashboardComponent implements OnInit {
 			label: 'BEP'
 		}
 	];
-	/* tslint:disable:max-line-length */
+	/* eslint-disable max-len */
 	public mainChartLabels: Array<any> = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday', 'Thursday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-	/* tslint:enable:max-line-length */
+	/* eslint-enable max-len */
 	public mainChartOptions: any = {
 		tooltips: {
 			enabled: false,
