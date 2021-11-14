@@ -47,7 +47,7 @@ export class AppSidebarNavTitleComponent implements OnInit {
   }
 
   private setStyle(styles, el) {
-	// tslint:disable-next-line forin
+	// eslint-disable-next-line  guard-for-in
 	for (const style in styles) {
 		this.renderer.setStyle(el, style, styles[style] );
 	}
