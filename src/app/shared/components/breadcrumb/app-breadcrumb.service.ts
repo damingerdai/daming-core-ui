@@ -26,7 +26,7 @@ export class AppBreadcrumbService {
 		do {
 		const childrenRoutes = currentRoute.children;
 		currentRoute = null;
-		// tslint:disable-next-line:no-shadowed-variable
+		// eslint-disable-next-line @typescript-eslint/no-shadow
 		childrenRoutes.forEach(route => {
 			if (route.outlet === 'primary') {
 			const routeSnapshot = route.snapshot;
