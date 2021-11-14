@@ -1,0 +1,7 @@
+#!/bin/sh
+# pre-commit git hook, see https://typicode.github.io/husky/#/ for more on how husky works.
+. "$(dirname "$0")/_/husky.sh"
+. "$(dirname "$0")/common.sh"
+
+
+yarn ng lint daming-core-ui && yarn sass-lint

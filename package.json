@@ -16,7 +16,8 @@
     "postinstall": "ngcc --properties es2015 browser module main --first-only",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "version:patch": "yarn version --patch",
-    "version:minor": "yarn version --minor"
+    "version:minor": "yarn version --minor",
+    "prepare": "is-ci || husky install"
   },
   "private": true,
   "dependencies": {
@@ -58,7 +59,8 @@
     "angular-cli-ghpages": "1.0.0-rc.2",
     "codelyzer": "^6.0.0",
     "conventional-changelog-cli": "^2.1.1",
-    "husky": "^4.0.0",
+    "husky": "^7.0.0",
+    "is-ci": "^3.0.1",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.3.7",
@@ -71,10 +73,5 @@
     "ts-node": "~7.0.0",
     "tslint": "~6.1.0",
     "typescript": "4.3.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "ng lint daming-core-ui && sass-lint -v -q"
-    }
   }
 }
