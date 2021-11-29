@@ -35,7 +35,7 @@
     "bootstrap": "^4.5.0",
     "chart.js": "^2.9.3",
     "core-js": "^3.6.5",
-    "flag-icon-css": "^3.2.1",
+    "flag-icon-css": "^4.1.6",
     "font-awesome": "^4.7.0",
     "moment": "^2.24.0",
     "mutationobserver-shim": "^0.3.3",
