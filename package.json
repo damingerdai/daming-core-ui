@@ -37,7 +37,7 @@
     "core-js": "^3.6.5",
     "flag-icon-css": "^3.2.1",
     "font-awesome": "^4.7.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.3",
     "mutationobserver-shim": "^0.3.3",
     "ng2-charts": "^2.4.3",
     "ngx-bootstrap": "^7.0.0",
