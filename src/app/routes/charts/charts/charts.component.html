@@ -11,8 +11,8 @@
       </div>
       <div class="card-body">
         <div class="chart-wrapper">
-          <canvas baseChart class="chart" [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions"
-            [colors]="lineChartColours" [legend]="lineChartLegend" [chartType]="lineChartType" (chartHover)="chartHovered($event)"
+          <canvas baseChart class="chart" [data]="lineChartData" [options]="lineChartOptions"
+             [legend]="lineChartLegend" [type]="lineChartType" (chartHover)="chartHovered($event)"
             (chartClick)="chartClicked($event)"></canvas>
         </div>
       </div>
@@ -28,8 +28,8 @@
       </div>
       <div class="card-body">
         <div class="chart-wrapper">
-          <canvas baseChart class="chart" [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions"
-            [legend]="barChartLegend" [chartType]="barChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
+          <canvas baseChart class="chart" [data]="barChartData" [options]="barChartOptions"
+            [legend]="barChartLegend" [type]="barChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@
       </div>
       <div class="card-body">
         <div class="chart-wrapper">
-          <canvas baseChart class="chart" [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType"
+          <canvas baseChart class="chart" [data]="doughnutChartData" [type]="doughnutChartType"
             (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
         </div>
       </div>
@@ -60,7 +60,7 @@
       </div>
       <div class="card-body">
         <div class="chart-wrapper">
-          <canvas baseChart class="chart" [datasets]="radarChartData" [labels]="radarChartLabels" [chartType]="radarChartType"
+          <canvas baseChart class="chart" [data]="radarChartData" [type]="radarChartType"
             (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
         </div>
       </div>
@@ -76,7 +76,7 @@
       </div>
       <div class="card-body">
         <div class="chart-wrapper">
-          <canvas baseChart class="chart" [data]="pieChartData" [labels]="pieChartLabels" [chartType]="pieChartType"
+          <canvas baseChart class="chart" [data]="pieChartData" [type]="pieChartType"
             (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
         </div>
       </div>
@@ -92,8 +92,8 @@
       </div>
       <div class="card-body">
         <div class="chart-wrapper">
-          <canvas baseChart class="chart" [data]="polarAreaChartData" [labels]="polarAreaChartLabels" [legend]="polarAreaLegend"
-            [chartType]="polarAreaChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
+          <canvas baseChart class="chart" [data]="polarAreaChartData" [legend]="polarAreaLegend"
+            [type]="polarAreaChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
         </div>
       </div>
     </div>
