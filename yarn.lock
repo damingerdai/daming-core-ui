@@ -6554,12 +6554,12 @@ ngx-perfect-scrollbar@^10.1.1:
     resize-observer-polyfill "^1.5.0"
     tslib "^2.0.0"
 
-ngx-toastr@^13.2.1:
-  version "13.2.1"
-  resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-13.2.1.tgz#531bc7da6a524a861e0409bd2749878b3b3f8a3f"
-  integrity sha512-UAzp7/xWK9IXA2LsOmhpaaIGCqscvJokoQpBNpAMrjEkDeSlFf8PWQAuQY795KW0mJb3qF9UG/s23nsXfMYKmg==
+ngx-toastr@^14.3.0:
+  version "14.3.0"
+  resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-14.3.0.tgz#3c366fc5ef8aa1ca8f97ae46c468cfcdf44e620d"
+  integrity sha512-d8j/sOr60w5U7rGlcKQ0Ff4u+m2NzhqU5ZdJXn7QW3aR3Zf/rY7/Fd14BmUindTOWVr2NeTYcQXCjLpir0ldpA==
   dependencies:
-    tslib "^2.0.0"
+    tslib "^2.3.0"
 
 nice-napi@^1.0.2:
   version "1.0.2"
