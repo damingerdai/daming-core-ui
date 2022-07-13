@@ -1,3 +1,13 @@
+# [1.1.0](https://github.com/damingerdai/daming-core-ui/compare/v1.0.2...v1.1.0) (2022-07-13)
+
+
+### Bug Fixes
+
+* update import chart statement ([252e228](https://github.com/damingerdai/daming-core-ui/commit/252e228184bd566586e67571b957603340274097))
+* update the new ngx-toastr docs link ([#54](https://github.com/damingerdai/daming-core-ui/issues/54)) ([87d3a4a](https://github.com/damingerdai/daming-core-ui/commit/87d3a4a8ebcf3b45f97eb4f278ef9576356c3867))
+
+
+
 ## [1.0.2](https://github.com/damingerdai/daming-core-ui/compare/v1.0.1...v1.0.2) (2021-08-30)
 
 
