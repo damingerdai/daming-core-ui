@@ -2220,10 +2220,10 @@ angular-cli-ghpages@1.0.0:
     fs-extra "^9.0.1"
     gh-pages "^3.1.0"
 
-angular2-toaster@^11.0.1:
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/angular2-toaster/-/angular2-toaster-11.0.1.tgz#3484277d8cc7c5ceb6035f50c874094660a1e64b"
-  integrity sha512-IRXE5zujPMNOhckcp+Hk2n+UrKSrlAviz55wGvSd9ECrqsSRjgh148UEtgsqkcYQ8leKcybZ4d0lrueDuQofNA==
+angular-toaster@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/angular-toaster/-/angular-toaster-1.0.0.tgz#c2cd1eaf4fb9d830c8f630b2369dc480163a853e"
+  integrity sha512-/QRf9fBWBIO6aMYC9g8WvG9tU5sIXi6+QjzNH1ZAoPq1jEsh+ISe82RgAMDC8QdC4jsQGq4kKWv6POLmxemBJQ==
   dependencies:
     tslib "^2.0.0"
 

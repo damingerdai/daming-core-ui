@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 import { NgChartsModule } from 'ng2-charts';
 import { ToastrModule } from 'ngx-toastr';
-import { ToasterModule } from 'angular2-toaster';
+import { ToasterModule } from 'angular-toaster';
 import { SharedBootstrapModule } from './shared.bootstrap.module';
 
 

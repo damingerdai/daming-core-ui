@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
-import { ToasterService, ToasterConfig } from 'angular2-toaster';
+import { ToasterService, ToasterConfig } from 'angular-toaster';
 
 @Component({
 	selector: 'app-toastr',
