@@ -7,7 +7,9 @@
 
 // regular style toast
 // @import '~ngx-toastr/toastr.css';
-@import '~angular-toaster/toaster.scss';
+// @import '~angular-toaster/toaster';
+@import 'node_modules/angular-toaster/toaster.scss';
+// @import '~angular-toaster/toaster.css';
 
 // bootstrap style toast
 // or import a bootstrap 4 alert styled design (SASS ONLY)
